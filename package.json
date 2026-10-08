@@ -1,0 +1,17 @@
+{
+  "name": "lume-relay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blind end-to-end encrypted relay for Lume Remote",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8788",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.148.0"
+  },
+  "engines": { "node": ">=22" }
+}
